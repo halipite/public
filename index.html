@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>我的主页</title>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="favicon.png">
+	<script type="text/javascript">
+		console.log(navigator.userAgent);
+		if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			window.location.href = "./menu.html";
+		} 
+	</script>
+</head>
+
+<frameset cols="365, *">
+	<frame src="./menu.html">
+	<frame src="https://www.wiki8.cn/shoutaiyinfeijing_8297/" name="showframe">
+</frameset>
+
+</html>
